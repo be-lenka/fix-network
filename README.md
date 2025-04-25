@@ -52,9 +52,11 @@ Invoke-ps2exe .\\Fix-Network-NoAdmin.ps1 .\\Fix-Network-NoAdmin.exe
 ### Option 3: Download & Run
 
 You can download the scripts directly from the repository and run them without needing to clone it.
-- [Fix-Network.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/master/Fix-Network.ps1)
 
-- [Fix-Network-NoAdmin.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/master/Fix-Network-NoAdmin.ps1) 
+- [Fix-Network-NoAdmin.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/refs/heads/master/Fix-Network-NoAdmin.ps1) [Preffered!]
+
+- [Fix-Network.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/refs/heads/master/Fix-Network.ps1)
+
 
 If you're able to run the programs under your user with elevated priviledges, use **Fix-Network.ps1** otherwise, use **Fix-Network-NoAdmin.ps1** (preffered).
 

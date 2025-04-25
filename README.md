@@ -1,4 +1,4 @@
-# BeLenka X BBS - 🛠 Network Fix Utility
+🛠 Network Fix Utility
 
 This repository contains two PowerShell scripts to help Windows users quickly reset their network settings, such as renewing IP configuration and flushing DNS cache.
 

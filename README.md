@@ -26,9 +26,8 @@ This repository contains two PowerShell scripts to help Windows users quickly re
 
 ### Option 1: Run as PowerShell script
 
-```powershell
 ## Admin version
-```
+```powershell
 powershell -ExecutionPolicy Bypass -File .\\Fix-Network.ps1
 ```
 

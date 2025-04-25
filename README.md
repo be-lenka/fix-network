@@ -48,3 +48,20 @@ Install-Module -Name ps2exe -Scope CurrentUser
 Invoke-ps2exe .\\Fix-Network.ps1 .\\Fix-Network.exe
 Invoke-ps2exe .\\Fix-Network-NoAdmin.ps1 .\\Fix-Network-NoAdmin.exe
 ```
+
+### Option 3: Download & Run
+
+You can download the scripts directly from the repository and run them without needing to clone it.
+- [Fix-Network.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/master/Fix-Network.ps1)
+
+- [Fix-Network-NoAdmin.ps1](https://raw.githubusercontent.com/be-lenka/fix-network/master/Fix-Network-NoAdmin.ps1) 
+
+If you're able to run the programs under your user with elevated priviledges, use **Fix-Network.ps1** otherwise, use **Fix-Network-NoAdmin.ps1** (preffered).
+
+1. Access download folder
+2. Double click on the `Fix-Network-NoAdmin.ps1` 
+
+After the program run is finished, you should be able to re-connect to the network like before. Enjoy!
+
+
+> ⚠️ Note: Running the admin version requires launching PowerShell **as Administrator**.
